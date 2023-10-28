@@ -1,5 +1,12 @@
+import Navs from './components/Navs';
+
 const Starred = () => {
-  return <div>Starred</div>;
+  return (
+    <div>
+      <Navs />
+      Starred
+    </div>
+  );
 };
 
 export default Starred;
